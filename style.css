@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(https://cdn.pixabay.com/photo/2015/11/04/20/59/milky-way-1023340_960_720.jpg)
+  background: url(https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_960_720.jpg)
     no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -20,22 +20,22 @@ body {
   width: 50rem;
   position: relative;
   border-radius: 10px;
-  box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  box-shadow: 0 0 5rem 0 rgba(0, 0, 0, 0.4);
   background: inherit;
   overflow: hidden;
+  z-index: 1;
 }
 
 .glass-container:before {
   content: "";
   position: absolute;
   background: inherit;
-  z-index: -1;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.1);
-  filter: blur(10px);
+  filter: blur(12px);
   margin: -20px;
+  z-index: -1;
 }
