@@ -8,11 +8,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_960_720.jpg)
+  background: url(https://cdn.pixabay.com/photo/2018/02/03/08/00/background-3127102_960_720.jpg)
     no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 .glass-container {
@@ -38,4 +39,16 @@ body {
   filter: blur(12px);
   margin: -20px;
   z-index: -1;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  color: white;
 }
